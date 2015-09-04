@@ -7,7 +7,8 @@ DOWNLOAD_DELAY = 1  #seconds of delay
 
 
 #ITEM_PIPELINES = {'zagara.pipelines.FilterWordsPipeline': 1}
-ITEM_PIPELINES = {'zagara.pipelines.MongoDBPipeline': 1}
+#ITEM_PIPELINES = {'zagara.pipelines.MongoDBPipeline': 1}
+ITEM_PIPELINES = {'zagara.pipelines.MongoDBPipeline1': 1}
 
 
 
